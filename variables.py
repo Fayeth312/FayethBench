@@ -14,4 +14,4 @@ def add_two_numbers():
 user_number1 = int(input("Give me a number: "))
 user_number2 = int(input("Give me 2nd a number: "))
 
-add_two_numbers2(user_number1, user_number2)
+add_two_numbers(user_number1, user_number2)
