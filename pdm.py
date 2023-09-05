@@ -26,4 +26,4 @@ myName = "Fayeth" #camel case
 
 my_name = "Name" #snake case
 
-MyName = "YN"  #pascal case
+MyName = "Y/N"  #pascal case
