@@ -52,3 +52,45 @@ x = False
 print(message)
 print(message2)
 print(not x) #way to get opposite of something
+
+#order of operations (PEMMDAS)
+#Parentheses
+#Exponent
+#Multiplication 
+#Modules
+#Divison
+#Addition
+#Subtraction
+
+#initialization statement/expression/more than JUST a value
+y = 10
+x = y >= 10
+
+
+z = 7 // 2
+t = 7/2
+print(t)
+
+def my_function():
+    print('I am so great!')
+
+my_function()
+
+def add (num1, num2):
+    print(num1 + num2)
+
+#built in functions
+my_name = "hi,my,name,is,billy,bob"
+words = my_name.split(',')
+print(words)
+
+def subtract(num1, num2):
+    return num1-num2
+
+difference = subtract(4,2)
+
+print(difference)
+#have to be explicit in what u want it to print
+
+#simple data types: char, string, integer, float, double, boolean 'a', 'word', 14, 35, True
+#complex data types: enumeration, array, list, object (list:[1,2,3,4]) (dictionary/object{'name': 'Bob', 'age': 47, 'job' 'janitor', 'is male': True})
