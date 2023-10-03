@@ -49,3 +49,13 @@ elif second < third and second < first:
     print(f"The second child is the youngest")
 elif third < second and third < first:
     print(f"The third child is the youngest")
+
+
+
+    vehicles = ['Car','Cycle','Bus','Tempo']
+
+for i in vehicles:
+    if i == "Bus":
+        break
+else:
+    print(i)

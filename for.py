@@ -39,10 +39,42 @@ for i in numbers:
 print (sum)
 
 #8
-vehicles = ['Car','Cycle','Bus','Tempo']
+for i in range(5,20,5):
+  print(i)
 
-for i in vehicles:
-    if i == "Bus":
-        break
-else:
-    print(i)
+#9
+for i in range(3,21,3):
+  print(i)
+
+#10 
+numbers = [1,4,50,80,12]
+min = 1000
+
+m = numbers[0]
+for i in numbers:
+    if i<m:
+       m = i
+print(m)
+
+#11
+numbers = [1,4,50,80,12]
+max = 0
+
+m = numbers[0]
+for i in numbers:
+    if i>m:
+       m = i
+print(m)
+
+#12
+list1 = ['Mango','Banana','Orange']
+list2 = []
+
+for i in list1:
+    list2.append(i)
+
+print(list2)
+
+list2.append(5)
+
+#I did my best. Some of them I just didn't understand, even with the use of Google.
