@@ -11,7 +11,7 @@ elif car_color == "Red":
 else:
     print("I just have a bike")
 
-# #for loop
+#for loop
 for i in range(1, 10):
     print(i)
 
