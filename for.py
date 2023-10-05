@@ -33,10 +33,10 @@ for i in list1:
 numbers = [12,3,56,67,89,90]
 sum = 0
 
-for i in numbers: 
-    sum += 1 
+for i in numbers:
+    sum += i
 
-print (sum)
+print(sum)
 
 #8
 for i in range(5,20,5):
@@ -76,5 +76,14 @@ for i in list1:
 print(list2)
 
 list2.append(5)
+
+#13
+vehicles = ['Car','Cycle','Bus','Tempo']
+
+for i in vehicles:
+    if i == "Bus":
+        break
+    else:
+        print(i)
 
 #I did my best. Some of them I just didn't understand, even with the use of Google.
