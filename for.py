@@ -75,8 +75,6 @@ for i in list1:
 
 print(list2)
 
-list2.append(5)
-
 #13
 vehicles = ['Car','Cycle','Bus','Tempo']
 
@@ -85,5 +83,3 @@ for i in vehicles:
         break
     else:
         print(i)
-
-#I did my best. Some of them I just didn't understand, even with the use of Google.

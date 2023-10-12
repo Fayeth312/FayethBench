@@ -14,3 +14,15 @@ def fibonacci():
             i += 1
     return fib
 print (fibonacci())
+
+
+# how_deep = int(input("Good day. How many numbers would you like your personalised fibonacci sequence?: "))
+
+# def fibonacci(num):
+#     for i in range(num):
+#         x = i 
+#         y = x
+#         z = x + y
+#         x = z 
+#         print(x)
+# fibonacci(how_deep)
