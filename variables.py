@@ -1,4 +1,4 @@
-my_name = "Fayeth Bench"
+my_name = " Fayeth Bench"
 test_score = 100
 was_lunch_tastey = True
 b_day_classes = [ "Kedge","9th Grade Seminar", "Lunch", "Coding/Comuter Programming", "French"]
