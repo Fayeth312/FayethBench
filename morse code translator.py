@@ -14,9 +14,9 @@ def translate(words):
     
 
 if __name__ == "__main__":
-    morse = input("Enter a word or phrase to be encoded: ")
+    morse = input("What would you like to be translated to morse?: ")
 
     try:
         print(translate(morse))
     except KeyError:
-        print("The word or phrase you've provided contains invalid characters")
+        print("Contains invalid characters, try again.")
