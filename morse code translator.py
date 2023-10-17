@@ -8,3 +8,15 @@ morse_key = {
     ':': '---...', ';': '-.-.-.', '=': '-...-', '+': '.-.-.', '-': '-....-', '_': '..--.-', '"': '.-..-.',
     '$': '...-..-', '@': '.--.-.', ' ': '/'
 }
+
+def translate(words):
+    return " ".join(morse_key[char] for char in words.upper())
+    
+
+if __name__ == "__main__":
+    morse = input("Enter a word or phrase to be encoded: ")
+
+    try:
+        print(translate(morse))
+    except KeyError:
+        print("The word or phrase you've provided contains invalid characters")
