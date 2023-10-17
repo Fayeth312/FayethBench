@@ -9,14 +9,14 @@ morse_key = {
     '$': '...-..-', '@': '.--.-.', ' ': '/'
 }
 
-def translate(words):
-    return " ".join(morse_key[char] for char in words.upper())
-    
+message_to_code = input("What message would you like turned into morse code? ")
+def to_morse_code(message):
+  morse_code = " "
+  for char in message:
+      if char == " ":
+          morse_code += "  "
+      else:
+          morse_code += morse_key[char.upper()] + " "
+  print(morse_code)
 
-if __name__ == "__main__":
-    morse = input("What would you like to be translated to morse?: ")
-
-    try:
-        print(translate(morse))
-    except KeyError:
-        print("Contains invalid characters, try again.")
+to_morse_code(message_to_code)
