@@ -1,9 +1,9 @@
-for each in range (1,101):
-    if each % 3 == 0 and each % 5 == 0:
+for num in range (1,101):
+    if num % 3 == 0 and num % 5 == 0:
         print('FizzBuzz')
-    elif each % 3 == 0:
+    elif num % 3 == 0:
         print('Fizz')
-    elif each % 5 == 0:
+    elif num % 5 == 0:
         print('Buzz')
     else:
-        print(each)
+        print(num)
