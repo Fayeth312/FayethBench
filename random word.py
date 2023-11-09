@@ -1,6 +1,5 @@
-with open('filename.txt', 'r') as f:
-  line = f.readline()
-  while line:
-    # do something to the line, for example
-    # saving it to disk
-    line = f.readline()
+import random
+with open("sowpods.txt", "r") as f: 
+	allText = f.read() 
+	words = list(map(str, allText.split())) 
+	print(random.choice(words))
