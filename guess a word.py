@@ -1,1 +1,1 @@
-rules = print ("Welcome to guess word! The rules are simple. I will choose a word, and you will guess the letters. This is not hangman, so you will not be limited to just a few guesses. Are you ready? Let's begin. Good luck.")
+rules = print ("Welcome to guess word! The rules are simple. I will choose a word, and you will guess the letters. This is not hangman, so you will not be limited to just a few guesses. Are you ready? Let's go.")
