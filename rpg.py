@@ -17,7 +17,7 @@ elif choice == "W" or "w":
     elif enemy_chance == 2:
         print("Oh no! You've encountered a virus!")
     elif enemy_chance == 3:
-        print("Oh no! You've encountered a monster!")
+        print("Oh no! You've encountered a rouge glitch!")
     elif enemy_chance == 4:
         print("You made it through safely. ")
 
